@@ -48,7 +48,7 @@ int main(int argc, const char * argv[]) {
     for (int j = 0; j < row+1; j++)
     a[j]=(int*)malloc((col+1) * sizeof(int));
     //할당
-    for (int i =0; i<row; i++){
+    for (int i =0; i<row+1; i++){
            for (int j=0; j<col+1; j++){
                a[i][j] = 0;
                //printf("%d", a[i][j]);
