@@ -86,7 +86,7 @@ int main(int argc, const char * argv[]) {
        }
     
     fclose(fpd);
-    
+  /*
     printf("\n \n");
      for(int i=0;i<row+1;i++){
      for(int j=0;j<col+1;j++)
@@ -94,7 +94,7 @@ int main(int argc, const char * argv[]) {
      printf("\n");
      }
      printf("\n \n");
-    
+    */
   /*  for (int i =2; i<row+1 ; i++){
         for (int j=1; j<col; j++){
             fprintf(fp, "(declare-const b%d_%d Int)\n", i, j) ;
