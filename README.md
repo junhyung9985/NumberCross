@@ -10,7 +10,6 @@ Step 2. Then it will genereate executable named, "quiz". So type like "./quiz <p
 Then, the program will show the solution for <puzzle_file_name>'s puzzle.
 
 Input : (test)
-'''
 
                 20 23 30 29 34 6 9 21 19
                 8 2 1 8 1 3 5 7 6 18
@@ -22,37 +21,31 @@ Input : (test)
                 4 8 3 5 5 2 1 2 8 24
                 1 2 8 8 8 3 7 2 7 22
                 8 3 9 5 9 2 1 4 9 35
-'''
 
 Step1:
-'''
 
-s21800180@peace:~/DiscreteMath/NumberCross$ make clean
-rm *.o quiz
+    s21800180@peace:~/DiscreteMath/NumberCross$ make clean
+    rm *.o quiz
 
-s21800180@peace:~/DiscreteMath/NumberCross$ make
-gcc -c -o numbercross.o numbercross.c
-gcc -o quiz numbercross.o
+    s21800180@peace:~/DiscreteMath/NumberCross$ make
+    gcc -c -o numbercross.o numbercross.c
+    gcc -o quiz numbercross.o
 
-s21800180@peace:~/DiscreteMath/NumberCross$ ls
-Constraints as Logical Formula.jpeg  numbercross.c  quiz  test2
-Makefile                             numbercross.o  test
+    s21800180@peace:~/DiscreteMath/NumberCross$ ls
+    Constraints as Logical Formula.jpeg  numbercross.c  quiz  test2
+    Makefile                             numbercross.o  test
 
-'''
 
 Step2:
-'''
 
-s21800180@peace:~/DiscreteMath/NumberCross$ ./quiz test
+    s21800180@peace:~/DiscreteMath/NumberCross$ ./quiz test
 
-1 1 0 1 0 0 1 0 0 
-0 1 1 0 1 0 0 0 0 
-1 1 1 0 1 0 0 1 1 
-1 1 1 1 1 1 1 0 1 
-0 0 0 1 1 0 0 1 1 
-0 1 1 1 0 0 1 1 0 
-0 0 1 0 0 0 1 1 1 
-1 1 1 1 0 1 0 1 0 
-0 0 0 0 1 1 0 1 0 
-
-'''
+    1 1 0 1 0 0 1 0 0 
+    0 1 1 0 1 0 0 0 0 
+    1 1 1 0 1 0 0 1 1 
+    1 1 1 1 1 1 1 0 1 
+    0 0 0 1 1 0 0 1 1 
+    0 1 1 1 0 0 1 1 0 
+    0 0 1 0 0 0 1 1 1 
+    1 1 1 1 0 1 0 1 0 
+    0 0 0 0 1 1 0 1 0 
