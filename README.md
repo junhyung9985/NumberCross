@@ -9,7 +9,9 @@ Step 2. Then it will genereate executable named, "quiz". So type like "./quiz <p
 
 Then, the program will show the solution for <puzzle_file_name>'s puzzle.
 
+
 < Example >
+
 Input : (test)
 
                 20 23 30 29 34 6 9 21 19
