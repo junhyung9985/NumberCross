@@ -6,7 +6,7 @@ Step 2. Then it will genereate executable named, "quiz". So type like "./quiz <p
 Then, the program will show the solution for <puzzle_file_name>'s puzzle.
 
 Input : (test)
-'''
+''' C
                 20 23 30 29 34 6 9 21 19
                 8 2 1 8 1 3 5 7 6 18
                 9 1 4 2 5 6 3 1 7 28
@@ -20,7 +20,7 @@ Input : (test)
 '''
 
 Step1:
-'''
+''' C
 s21800180@peace:~/DiscreteMath/NumberCross$ make clean
 rm *.o quiz
 
@@ -34,7 +34,7 @@ Makefile                             numbercross.o  test
 '''
 
 Step2:
-'''
+''' C
 s21800180@peace:~/DiscreteMath/NumberCross$ ./quiz test
 
 1 1 0 1 0 0 1 0 0 
